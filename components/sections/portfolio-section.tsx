@@ -58,7 +58,7 @@ const PortfolioSection = () => {
                 <div className="relative h-44 rounded-t-2xl overflow-hidden">
                   {isLive ? (
                     <Image
-                      src="/images/captura-web.png"
+                      src="/images/captura-web2.png"
                       alt={`Demo ${item.niche}`}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
