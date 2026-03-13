@@ -43,9 +43,12 @@ const PortfolioSection = () => {
           {PORTFOLIO_ITEMS.map((item, index) => {
             const Icon = ICON_MAP[item.icon]
             const isLive = item.status === 'live'
+            const CardWrapper = isLive ? motion.a : motion.div
+            const liveProps = isLive ? { href: item.url, target: '_blank', rel: 'noopener noreferrer' } : {}
             return (
-              <motion.div
+              <CardWrapper
                 key={item.niche}
+                {...liveProps}
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -88,24 +91,18 @@ const PortfolioSection = () => {
                     {item.description}
                   </p>
 
-                  {/* Status — live o coming-soon */}
+                  {/* Status */}
                   {isLive ? (
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-sm font-semibold mt-auto pt-2"
-                      style={{ color: '#6B8F71' }}
-                    >
+                    <span className="inline-flex items-center gap-1 text-sm font-semibold mt-auto pt-2" style={{ color: '#6B8F71' }}>
                       Así quedaría tu web →
-                    </a>
+                    </span>
                   ) : (
                     <span className="inline-flex items-center text-xs font-bold uppercase tracking-widest mt-auto pt-2" style={{ color: '#94A3B8' }}>
                       Próximamente
                     </span>
                   )}
                 </div>
-              </motion.div>
+              </CardWrapper>
             )
           })}
         </div>
