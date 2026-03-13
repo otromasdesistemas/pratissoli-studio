@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { Brain, Scale, Building2, Calculator, Activity } from 'lucide-react'
 import { PORTFOLIO_ITEMS, PORTFOLIO_SECTION } from '@/lib/constants'
 
@@ -53,13 +54,25 @@ const PortfolioSection = () => {
                   isLive ? 'hover:shadow-lg cursor-pointer' : ''
                 }`}
               >
-                {/* Placeholder image area */}
-                <div className="relative h-44 bg-gradient-to-br from-[var(--navy)] to-[#1a2f55] flex items-center justify-center rounded-t-2xl overflow-hidden">
-                  {Icon && (
-                    <Icon
-                      size={40}
-                      className="text-white/20 group-hover:text-white/40 transition-colors duration-300"
+                {/* Image area */}
+                <div className="relative h-44 rounded-t-2xl overflow-hidden">
+                  {isLive ? (
+                    <Image
+                      src="/images/captura-web.png"
+                      alt={`Demo ${item.niche}`}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-[var(--navy)] to-[#1a2f55] flex items-center justify-center">
+                      {Icon && (
+                        <Icon
+                          size={40}
+                          className="text-white/20 group-hover:text-white/40 transition-colors duration-300"
+                        />
+                      )}
+                    </div>
                   )}
                 </div>
 

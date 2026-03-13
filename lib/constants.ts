@@ -145,7 +145,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     icon: 'Brain',
     description: 'Webs que transmiten calidez y confianza desde el primer segundo.',
     status: 'live',
-    url: 'https://github.com/otromasdesistemas/pratissoli-demo-psicologa.git',
+    url: 'https://pratissoli-demo-psicologa.vercel.app/',
   },
   {
     niche: 'Abogados',
