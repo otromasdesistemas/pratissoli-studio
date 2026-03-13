@@ -97,7 +97,7 @@ const PortfolioSection = () => {
                       className="inline-flex items-center gap-1 text-sm font-semibold mt-auto pt-2"
                       style={{ color: '#6B8F71' }}
                     >
-                      Ver demo →
+                      Así quedaría tu web →
                     </a>
                   ) : (
                     <span className="inline-flex items-center text-xs font-bold uppercase tracking-widest mt-auto pt-2" style={{ color: '#94A3B8' }}>
