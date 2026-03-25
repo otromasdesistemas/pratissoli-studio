@@ -7,8 +7,8 @@
 export const BRAND = {
   name: 'Pratissoli Studio',
   tagline: 'Landing pages para profesionales',
-  email: 'hola@pratissolistudio.com',
-  whatsapp: '+54 9 11 XXXX-XXXX',
+  email: 'ezequielpratisoli@gmail.com',
+  whatsapp: '+54 9 2477 699977',
   whatsappLink: 'https://wa.me/5492477699977',
   youtube: 'https://www.youtube.com/@otromasdesistemas',
   instagram: 'https://www.instagram.com/otromasdesistemas/',
