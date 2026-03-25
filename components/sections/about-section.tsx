@@ -75,6 +75,7 @@ const AboutSection = () => {
                 width={640}
                 height={360}
                 className="w-full h-auto"
+                unoptimized
               />
             </motion.div>
 
