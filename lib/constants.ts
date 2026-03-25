@@ -146,13 +146,15 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     description: 'Diseño serio y formal que refuerza autoridad y credibilidad profesional.',
     status: 'live',
     url: 'https://pratissoli-demo-abogado.vercel.app/',
-    previewImage: '/images/captura abogado.png',
+    previewImage: '/images/captura-web-abogado.png',
   },
   {
     niche: 'Arquitectos',
     icon: 'Building2',
     description: 'Portafolios visuales que hablan por sí solos.',
-    status: 'coming-soon',
+    status: 'live',
+    url: 'https://pratissoli-demo-arquitecto.vercel.app/',
+    previewImage: '/images/captura-web-arquitecto.png',
   },
   {
     niche: 'Contadores',
@@ -160,7 +162,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     description: 'Claridad y orden que comunican confianza y profesionalismo.',
     status: 'live',
     url: 'https://pratissoli-demo-contadora-mpfe.vercel.app/',
-    previewImage: '/images/captura-contador.png',
+    previewImage: '/images/captura-web-contadora.png',
   },
   {
     niche: 'Kinesiólogos',
@@ -168,7 +170,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     description: 'Webs dinámicas que reflejan movimiento, energía y salud.',
     status: 'live',
     url: 'https://pratissoli-demo-kinesiologo.vercel.app/',
-    previewImage: '/images/captura-kinesiologo.png',
+    previewImage: '/images/captura-web-kinesiologa.png',
   },
 ]
 
