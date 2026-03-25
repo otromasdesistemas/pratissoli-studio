@@ -3,7 +3,7 @@
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/5492477699977?text=Hola%2C%20vi%20su%20web%20y%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20servicios."
+      href="https://wa.me/5492477699977?text=Hola%20Ezequiel%2C%20vi%20tu%20web%20y%20me%20interesa%20tener%20una%20landing%20page%20para%20mi%20consultorio%2Festudio.%20%C2%BFPodemos%20hablar%3F"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
