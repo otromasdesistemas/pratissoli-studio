@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     template: `%s | ${BRAND.name}`,
   },
   description:
-    'Diseñamos landing pages que generan confianza y convierten visitantes en clientes. Para psicólogos, abogados, arquitectos, contadores y kinesiólogos.',
+    'Diseñamos landing pages que generan confianza y convierten visitantes en clientes. Para abogados, arquitectos, contadores y kinesiólogos.',
   keywords: [
     'landing page',
     'diseño web profesional',
     'páginas web Argentina',
-    'web para psicólogos',
     'web para abogados',
     'web para arquitectos',
+    'web para contadores',
   ],
   authors: [{ name: BRAND.name }],
   openGraph: {

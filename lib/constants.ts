@@ -38,7 +38,6 @@ export const HERO = {
 
 // --- MARQUEE ---
 export const MARQUEE_ITEMS = [
-  'Psicólogos',
   'Abogados',
   'Arquitectos',
   'Contadores',
@@ -137,21 +136,17 @@ export interface PortfolioItem {
   description: string
   status: 'live' | 'coming-soon'
   url?: string
+  previewImage?: string
 }
 
 export const PORTFOLIO_ITEMS: PortfolioItem[] = [
   {
-    niche: 'Psicólogos',
-    icon: 'Brain',
-    description: 'Webs que transmiten calidez y confianza desde el primer segundo.',
-    status: 'live',
-    url: 'https://pratissoli-demo-psicologa.vercel.app/',
-  },
-  {
     niche: 'Abogados',
     icon: 'Scale',
     description: 'Diseño serio y formal que refuerza autoridad y credibilidad profesional.',
-    status: 'coming-soon',
+    status: 'live',
+    url: 'https://pratissoli-demo-abogado.vercel.app/',
+    previewImage: '/images/captura abogado.png',
   },
   {
     niche: 'Arquitectos',
@@ -163,13 +158,17 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     niche: 'Contadores',
     icon: 'Calculator',
     description: 'Claridad y orden que comunican confianza y profesionalismo.',
-    status: 'coming-soon',
+    status: 'live',
+    url: 'https://pratissoli-demo-contadora-mpfe.vercel.app/',
+    previewImage: '/images/captura-contador.png',
   },
   {
     niche: 'Kinesiólogos',
     icon: 'Activity',
     description: 'Webs dinámicas que reflejan movimiento, energía y salud.',
-    status: 'coming-soon',
+    status: 'live',
+    url: 'https://pratissoli-demo-kinesiologo.vercel.app/',
+    previewImage: '/images/captura-kinesiologo.png',
   },
 ]
 
@@ -236,9 +235,9 @@ export interface Testimonial {
 export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      '"Desde que lancé mi landing page, las consultas por semana se triplicaron. El diseño transmite exactamente la calidez que quería proyectar."',
+      '"Desde que lancé mi landing page, las consultas por semana se triplicaron. El diseño transmite exactamente la seriedad que quería proyectar."',
     name: 'Valentina Ríos',
-    profession: 'Psicóloga Clínica',
+    profession: 'Contadora Pública',
     avatar: '',
   },
   {

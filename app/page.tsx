@@ -8,6 +8,7 @@ import PortfolioSection from '@/components/sections/portfolio-section'
 import ProcessSection from '@/components/sections/process-section'
 import TestimonialsSection from '@/components/sections/testimonials-section'
 import CtaSection from '@/components/sections/cta-section'
+import WhatsAppButton from '@/components/whatsapp-button'
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         <CtaSection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }
