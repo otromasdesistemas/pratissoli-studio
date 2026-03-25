@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="/">
           <Image
-            src="/images/logo negro.png"
+            src="/images/logo-transparent.png"
             alt="Pratissoli Studio"
             width={160}
             height={40}

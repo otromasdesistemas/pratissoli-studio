@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <a href="/">
               <Image
-                src="/images/logo blanco.png"
+                src="/images/logo-transparent.png"
                 alt="Pratissoli Studio"
                 width={160}
                 height={40}
